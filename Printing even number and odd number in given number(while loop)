@@ -8,5 +8,19 @@ while(n>0):
         en=en*10+r
     else:
         on=on*10+r
-print(en)
-print(on) 
+En=en
+rev=0
+while(En):
+    E=En%10
+    rev=rev*10+E
+    En=En//10
+print(rev)
+On=on
+Rev=0
+while(On):
+    R=On%10
+    Rev=Rev*10+R
+    On=On//10
+print(Rev)
+print(rev**2)
+print(Rev**2)
