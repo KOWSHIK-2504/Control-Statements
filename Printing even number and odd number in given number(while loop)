@@ -1,0 +1,12 @@
+n=int(input())
+en=0
+on=0
+while(n>0):
+    r=n%10
+    n=n//10
+    if(r%2==0):
+        en=en*10+r
+    else:
+        on=on*10+r
+print(en)
+print(on) 
